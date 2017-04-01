@@ -26,7 +26,7 @@ app.use(flash());
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
-    secret: "Tandy is the best",
+    secret: "best",
     resave: false,
     saveUninitialized: false
 }));
